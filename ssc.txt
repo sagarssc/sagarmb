@@ -106,3 +106,19 @@ Harry Potter
 	cat 'Harry Potter and the Goblet of Fire.txt' | tr " " "\n" | sort | uniq -c | wc -l
 
 
+Processes
+
+1:)    List your browser's process ids (pid) and parent process ids(ppid)
+
+	ps -efj | grep firefox
+
+2:)    Stop the browser application from the command line
+
+	kill firefox
+
+3:)    List the top 3 processes by CPU usage.
+	ps xao pid,ppid,cmd,%mem,%cpu | head -4
+
+
+
+
