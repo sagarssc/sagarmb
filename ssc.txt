@@ -133,4 +133,18 @@ Use apt (Ubuntu) or homebrew (Mac) to:
 
 	apt-get remove nginx
 
+Misc
+
+1:)    What's your local ip address?
+
+	iwconfig
+
+2:)    Find the ip address of google.com
+
+	host www.google.com
+
+3:)    Where is the python command located? What about python3?
+	which python
+	which python3
+
 
