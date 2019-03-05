@@ -119,6 +119,18 @@ Processes
 3:)    List the top 3 processes by CPU usage.
 	ps xao pid,ppid,cmd,%mem,%cpu | head -4
 
+Managing software
 
+Use apt (Ubuntu) or homebrew (Mac) to:
+
+1:)    Install git, vim and nginx
+
+	apt-get install git
+	apt-get install vim
+	apt-get install nginx
+
+2;)    Uninstall nginx
+
+	apt-get remove nginx
 
 
